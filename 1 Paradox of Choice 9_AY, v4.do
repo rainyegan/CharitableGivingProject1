@@ -40,16 +40,16 @@ version 18
 clear all
 
 
-global wdE3 = "C:\Users\AtiyehYeganloo\OneDrive - Judge Business School\_U of Cambridge\_Research Projects\0_Donation, choice overload\Data Analysis\Shared DataAnalysis"
+global drive = "C:\Users\AtiyehYeganloo\OneDrive - Judge Business School\_U of Cambridge\_Research Projects\0_Donation, choice overload\Data Analysis\Shared DataAnalysis"
 
 
-cd "$wdE3\logs"
+cd "$drive\logs"
 
 set more off
 capture log close _all
 log using "master_log_1 Paradox of Choice 9_AY_v4`c(current_date)'.smcl", replace
 
-cd "$wdE3\data"
+cd "$drive\data"
 
 
 u "mergefile.dta"
